@@ -55,7 +55,7 @@ function preload() {
   gameOver.addImage("game over", gameOverImage);
   gameOver.scale=0.7
 
-  restart = createSprite(300, 270);
+  restart = createSprite(200, 270);
   restart.addImage("restart",restartImage);
   restart.scale=.1
 
