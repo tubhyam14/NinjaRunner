@@ -51,11 +51,11 @@ function preload() {
   invisibleGround = createSprite(300, 350, 600, 10);
   invisibleGround.visible = false;
 
-  gameOver = createSprite(290, 120);
+  gameOver = createSprite(200, 120);
   gameOver.addImage("game over", gameOverImage);
   gameOver.scale=0.7
 
-  restart = createSprite(100, 270);
+  restart = createSprite(200, 270);
   restart.addImage("restart",restartImage);
   restart.scale=.1
 
