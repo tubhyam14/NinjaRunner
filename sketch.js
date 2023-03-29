@@ -100,3 +100,4 @@ function draw() {
 
     if (ninja.isTouching(scrollGroup)) {
       scrollScore = scrollScore + 1
+    }}
