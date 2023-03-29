@@ -30,7 +30,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 500);
+createCanvas(windowWidth, windowHeight);
   ground = createSprite(0, 50, 0, 0);
   ground.shapeColor = "white";
   ground.addImage("ground", groundImage);
