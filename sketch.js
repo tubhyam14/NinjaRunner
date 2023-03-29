@@ -30,7 +30,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 500);
+  createCanvas(windowWidth, windowHeight);
   ground = createSprite(0, 50, 0, 0);
   ground.shapeColor = "white";
   ground.addImage("ground", groundImage);
@@ -76,7 +76,7 @@ function draw() {
     spawnObstacles();
     spawnScroll();
 
-    ground.velocityX = -(4 + (3 * score) / 100);
+   ground.velocityX = -(7 + (3 * score) / 100);
 
     if (ground.x < 0) {
       ground.x = ground.width / 2;
