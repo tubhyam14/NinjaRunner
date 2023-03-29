@@ -1,3 +1,7 @@
+const canvas = document.createElement('canvas');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+document.body.appendChild(canvas);
 var PLAY = 1;
 var END = 0;
 var gameState = PLAY;
